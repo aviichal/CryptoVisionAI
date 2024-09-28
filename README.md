@@ -4,19 +4,30 @@ CryptoVisionAI is a cryptocurrency trading assistant that provides both manual a
 **Features**
 
 **User Registration and Authentication:** Allows users to securely register and log in using hashed passwords.
+
 **Portfolio Management:** Users can add cryptocurrencies to their portfolio, view current holdings, and monitor their investments.
+
 **Manual Trading:** Users can manually buy cryptocurrencies by specifying the price and quantity, and the system deducts the cost from their virtual bank balance.
+
 **Auto-Buy (Crypto Assistant):** Based on LSTM model price predictions, the system automatically buys cryptocurrency if the expected profit meets the user's target.
+
 **LSTM-based Price Prediction:** Utilizes an LSTM neural network to predict future cryptocurrency prices based on historical data fetched from CoinGecko API.
+
 **Fraud Detection:** Implements an Isolation Forest algorithm to detect potentially fraudulent trades based on trade history and anomalies.
 
 **Tech Stack**
 Python: The main programming language for the project.
+
 TensorFlow/Keras: Used for building and training the LSTM model for price prediction.
+
 sklearn: Provides the Isolation Forest for fraud detection and data preprocessing tools.
+
 Pandas and NumPy: Used for handling cryptocurrency data and performing data manipulation tasks.
+
 CoinGecko API: Fetches historical cryptocurrency data for price prediction.
+
 Matplotlib: For plotting predicted price trends.
+
 Hashlib: Ensures secure password hashing during user registration.
 
 **How it Works**
@@ -38,14 +49,21 @@ The system utilizes an Isolation Forest algorithm to identify potentially fraudu
 
 **Supported Cryptocurrencies**
 Bitcoin
+
 Ethereum
+
 Litecoin
+
 Ripple
+
 Cardano
 
 **Future Enhancements**
 
 Buy and Sell Functionality: Expand the trading capabilities to include selling assets.
+
 Real-time Price Monitoring: Add real-time price tracking for cryptocurrencies.
+
 Enhanced Fraud Detection: Improve fraud detection using more advanced anomaly detection algorithms.
+
 Web Interface: Build a web-based interface for easier interaction.
