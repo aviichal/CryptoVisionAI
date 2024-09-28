@@ -16,6 +16,7 @@ CryptoVisionAI is a cryptocurrency trading assistant that provides both manual a
 **Fraud Detection:** Implements an Isolation Forest algorithm to detect potentially fraudulent trades based on trade history and anomalies.
 
 **Tech Stack**
+
 Python: The main programming language for the project.
 
 TensorFlow/Keras: Used for building and training the LSTM model for price prediction.
@@ -48,6 +49,7 @@ Users can view all their current holdings, including the name of the cryptocurre
 The system utilizes an Isolation Forest algorithm to identify potentially fraudulent trades. It detects outliers in trade activity by analyzing the quantity and price of trades, alerting users if any suspicious activity is detected.
 
 **Supported Cryptocurrencies**
+
 Bitcoin
 
 Ethereum
